@@ -1,0 +1,84 @@
+
+html,
+body {
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+  font-size: 100%;
+  line-height: 1;
+  font-size: 14px;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+input,
+textarea,
+button {
+  font-family: inherit;
+}
+input::-ms-clear {
+  display: none;
+}
+button {
+  cursor: pointer;
+}
+button::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+a:hover {
+  text-decoration: none;
+}
+a,
+a:visited {
+  text-decoration: none;
+}
+ul li {
+  list-style: none;
+}
+img {
+  vertical-align: top;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: inherit;
+  font-weight: 400px;
+}
+.conteiner{
+  max-width: 1400px;
+  margin: 0 auto;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+}
+.checked{
+  display:inline-block;
+  background-color: #222;
+  padding: 20px;
+  border-radius: 10px;
+  margin-bottom: 24px;
+  font-family: area;
+  font-size: 32px;
+  color: #fff;
+}
+.btn{
+  background-color:transparent;
+  border: 1px solid #000;
+  border-radius:5px;
+  color: black;
+  padding: 5px;
+}
+.btn:hover{
+background-color: #222;
+  color: #fff;
+  transition: all 0,5s ease 0s;
+}
